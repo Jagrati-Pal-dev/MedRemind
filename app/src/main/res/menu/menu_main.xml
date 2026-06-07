@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_stock"
+        android:title="@string/title_medicine_stock"
+        android:icon="@drawable/ic_check_circle"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_stats"
+        android:title="Stats"
+        android:icon="@drawable/ic_stats"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="always"
+        app:actionLayout="@layout/menu_item_profile" />
+
+</menu>

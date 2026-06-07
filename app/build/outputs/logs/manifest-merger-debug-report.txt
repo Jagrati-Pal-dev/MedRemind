@@ -1,0 +1,946 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:106:9-114:20
+	android:grantUriPermissions
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:110:13-47
+	android:authorities
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:108:13-64
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:109:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:107:13-62
+manifest
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:2:1-118:12
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:2:1-118:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2564a10815b28187f6b5c70fe341a4c\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d23c304c5bc459d85e542bb9b120a2ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4803d7219d5a82a701673efb5d2f0658\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c20197d197525be32f51be1d46f8f5e1\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\78f4a57f8abd88721d48c9cbf4e3c742\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\35886b435fd56a83fcef8ac84f5b88ee\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\05c02dac9ff99da89d292f7d4c13d73c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9693b193a4b641648ba3a4ad5916df2a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1fa248c01af14a6fd87700d47f47e3d\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7ea6497637f96968fc0ca9ef33f7ada3\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\65e34f0011963bc13414aa289a80ab59\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7c69f4b81d0dbc4a62d38344322629d2\transformed\integrity-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\238627ed1b120489cf66cff7694aec2b\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6f927513c4a68400fe72781012f1105\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d75df60b9671b2401c9be41527a7bca3\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b383e225d5beeb6c3e4f89ffabdf16f4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2167b3d8fde3eb8b69e246e8559bbae\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e58f548567075d2fee9bdad2e4823ba7\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e498b63fb43b44e5d8d0e747dcdd8f63\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\55e22f92a89a1b0abdfe22dddded43ce\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dbf5032862e28ac631745f4b467872ae\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\815fcc5a8a1627876b862eb80e0e9e0e\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\23fec59c33ebc2267ec2e511cd7ba8c5\transformed\datastore-preferences-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\80c6ac93c72d2e24cd81563b21e22cc8\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8a905abba6abac1d50fdfdcff7a37ee4\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7215ec2f4045adf289967b8734fb0de6\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b95391956957e2e9f408b76ad5eb4c08\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ee6696edc0ee86d3cf76ac8710018b35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8881a8ff13a797ba5a4c9b246ce4930b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6e9d500a6611e89fb76e7f65bc98eda\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dd365440223d211ce6b7800f95ff4b45\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3d43eafeafd2f8c92e74ab41af498961\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a6866b7a06c005105ebc92ccfa389c16\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\fa7beda293ee9d20a316174d731b8fa6\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4de067271acbfce8e0b77d1c5df8ae40\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6afb9e320c72bacb9f6868b0bc9453a0\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\29d327dd8f42bb95082ae32d2917f8f9\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f20f71908f2bd37073d7d435c031d07\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f8ac5789d9ad074bbe6e8ff87a76586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ce5d834fc4d49cddeae986fdc2768d93\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1ca73be30d0fe67770e9e45f751f9204\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7fe04461bfe3363431850034acb26835\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d9da5a5ea9e289a3d1a4b31462672df0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ea3554cfbc77c9df5c7a61281aba2c8e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0e1df02997eac5aa9df654e6ee03fedb\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9f7e245dcac5e10a029a469ef8a4c14d\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\36d009587c3b3413619c97004e1a0a56\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c25485fb8cb5118985165dcc62552130\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3ad35214a9bcacc20c500c4145ea9276\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\125d0b4dc8cec70557bbbd890f0237c4\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b70379cdbf2cca0521bdc31974a808b3\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\49e4ce503c170df9d403814f88afcf5a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4db0b6a87f073dfc5e436fbabdebd986\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\074c2544b467da731bbadc70d1ae4ff4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\25f5b492d0de3cf819040d8d6ad87db3\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b3c421bf4ba608a77a665c11b5acde7c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\032b66b51c35e8d9f722d4b27fc44ad2\transformed\firebase-components-19.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\844fb9b39a0ce0c4cb547d41d466914c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e9bb439b7b1ebac451c223ba247bcd2d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8ad78334d994e4bed1e0651d8c96bb5b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:9:5-89
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:9:22-86
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:10:5-92
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:10:22-89
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:14:22-75
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:16:5-95
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:16:22-92
+uses-feature#android.hardware.camera
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:17:5-85
+	android:required
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:17:58-82
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:17:19-57
+queries
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:19:5-23:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:20:9-22:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:21:21-70
+application
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:25:5-116:19
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:25:5-116:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2564a10815b28187f6b5c70fe341a4c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2564a10815b28187f6b5c70fe341a4c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d23c304c5bc459d85e542bb9b120a2ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d23c304c5bc459d85e542bb9b120a2ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9693b193a4b641648ba3a4ad5916df2a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9693b193a4b641648ba3a4ad5916df2a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1fa248c01af14a6fd87700d47f47e3d\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1fa248c01af14a6fd87700d47f47e3d\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7c69f4b81d0dbc4a62d38344322629d2\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7c69f4b81d0dbc4a62d38344322629d2\transformed\integrity-1.3.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\238627ed1b120489cf66cff7694aec2b\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\238627ed1b120489cf66cff7694aec2b\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6f927513c4a68400fe72781012f1105\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6f927513c4a68400fe72781012f1105\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d75df60b9671b2401c9be41527a7bca3\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d75df60b9671b2401c9be41527a7bca3\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b383e225d5beeb6c3e4f89ffabdf16f4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b383e225d5beeb6c3e4f89ffabdf16f4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2167b3d8fde3eb8b69e246e8559bbae\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2167b3d8fde3eb8b69e246e8559bbae\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e58f548567075d2fee9bdad2e4823ba7\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e58f548567075d2fee9bdad2e4823ba7\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\29d327dd8f42bb95082ae32d2917f8f9\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\29d327dd8f42bb95082ae32d2917f8f9\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\074c2544b467da731bbadc70d1ae4ff4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\074c2544b467da731bbadc70d1ae4ff4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:28:9-41
+	android:roundIcon
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:29:9-54
+	android:icon
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:31:9-54
+activity#com.example.medicinereminder.ui.LoginActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:33:9-40:20
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:34:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:38:27-74
+activity#com.example.medicinereminder.ui.SignUpActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:43:13-46
+activity#com.example.medicinereminder.ui.MainActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:47:13-44
+activity#com.example.medicinereminder.ui.AddEditMedicineActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:50:9-54:58
+	android:parentActivityName
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:53:13-58
+	android:windowSoftInputMode
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:54:13-55
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:51:13-55
+activity#com.example.medicinereminder.ui.StatsActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:56:9-59:61
+	android:parentActivityName
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:59:13-58
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:57:13-45
+activity#com.example.medicinereminder.ui.StockActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:61:9-64:61
+	android:parentActivityName
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:64:13-58
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:62:13-45
+activity#com.example.medicinereminder.ui.ProfileActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:66:9-69:61
+	android:parentActivityName
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:69:13-58
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:67:13-47
+activity#com.example.medicinereminder.ui.AlarmActivity
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:71:9-77:43
+	android:turnScreenOn
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:77:13-40
+	android:showWhenLocked
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:76:13-42
+	android:launchMode
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:74:13-48
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:73:13-37
+	android:showOnLockScreen
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:75:13-44
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:72:13-45
+receiver#com.example.medicinereminder.receiver.AlarmReceiver
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:79:9-83:46
+	android:enabled
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:81:13-35
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:82:13-36
+	android:directBootAware
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:80:13-51
+receiver#com.example.medicinereminder.receiver.BootReceiver
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:85:9-94:20
+	android:enabled
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:87:13-35
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:88:13-36
+	android:directBootAware
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:89:13-43
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:86:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:90:13-93:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:91:17-79
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:91:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:92:17-82
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:92:25-79
+service#com.example.medicinereminder.service.AlarmService
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:96:9-104:19
+	android:enabled
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:98:13-35
+	android:exported
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:99:13-37
+	android:directBootAware
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:101:13-43
+	android:foregroundServiceType
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:100:13-55
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:97:13-49
+property#android.app.PROPERTY_SPECIAL_USE_FGS_TYPE
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:102:13-103:157
+	android:value
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:103:17-154
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:102:23-79
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:111:13-113:54
+	android:resource
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:113:17-51
+	android:name
+		ADDED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml:112:17-67
+uses-sdk
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2564a10815b28187f6b5c70fe341a4c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2564a10815b28187f6b5c70fe341a4c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d23c304c5bc459d85e542bb9b120a2ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d23c304c5bc459d85e542bb9b120a2ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4803d7219d5a82a701673efb5d2f0658\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4803d7219d5a82a701673efb5d2f0658\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c20197d197525be32f51be1d46f8f5e1\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c20197d197525be32f51be1d46f8f5e1\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\78f4a57f8abd88721d48c9cbf4e3c742\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\78f4a57f8abd88721d48c9cbf4e3c742\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\35886b435fd56a83fcef8ac84f5b88ee\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\35886b435fd56a83fcef8ac84f5b88ee\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\05c02dac9ff99da89d292f7d4c13d73c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\05c02dac9ff99da89d292f7d4c13d73c\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9693b193a4b641648ba3a4ad5916df2a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9693b193a4b641648ba3a4ad5916df2a\transformed\firebase-analytics-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1fa248c01af14a6fd87700d47f47e3d\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1fa248c01af14a6fd87700d47f47e3d\transformed\play-services-measurement-sdk-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7ea6497637f96968fc0ca9ef33f7ada3\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7ea6497637f96968fc0ca9ef33f7ada3\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\65e34f0011963bc13414aa289a80ab59\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\65e34f0011963bc13414aa289a80ab59\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7c69f4b81d0dbc4a62d38344322629d2\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7c69f4b81d0dbc4a62d38344322629d2\transformed\integrity-1.3.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\238627ed1b120489cf66cff7694aec2b\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\238627ed1b120489cf66cff7694aec2b\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6f927513c4a68400fe72781012f1105\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6f927513c4a68400fe72781012f1105\transformed\play-services-measurement-base-23.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d75df60b9671b2401c9be41527a7bca3\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d75df60b9671b2401c9be41527a7bca3\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b383e225d5beeb6c3e4f89ffabdf16f4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b383e225d5beeb6c3e4f89ffabdf16f4\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2167b3d8fde3eb8b69e246e8559bbae\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d2167b3d8fde3eb8b69e246e8559bbae\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e58f548567075d2fee9bdad2e4823ba7\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e58f548567075d2fee9bdad2e4823ba7\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e498b63fb43b44e5d8d0e747dcdd8f63\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e498b63fb43b44e5d8d0e747dcdd8f63\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\55e22f92a89a1b0abdfe22dddded43ce\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\55e22f92a89a1b0abdfe22dddded43ce\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dbf5032862e28ac631745f4b467872ae\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dbf5032862e28ac631745f4b467872ae\transformed\ads-adservices-java-1.1.0-beta11\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\815fcc5a8a1627876b862eb80e0e9e0e\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\815fcc5a8a1627876b862eb80e0e9e0e\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\23fec59c33ebc2267ec2e511cd7ba8c5\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences-core-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\23fec59c33ebc2267ec2e511cd7ba8c5\transformed\datastore-preferences-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\80c6ac93c72d2e24cd81563b21e22cc8\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\80c6ac93c72d2e24cd81563b21e22cc8\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8a905abba6abac1d50fdfdcff7a37ee4\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.7] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8a905abba6abac1d50fdfdcff7a37ee4\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7215ec2f4045adf289967b8734fb0de6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7215ec2f4045adf289967b8734fb0de6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b95391956957e2e9f408b76ad5eb4c08\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b95391956957e2e9f408b76ad5eb4c08\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ee6696edc0ee86d3cf76ac8710018b35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ee6696edc0ee86d3cf76ac8710018b35\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8881a8ff13a797ba5a4c9b246ce4930b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8881a8ff13a797ba5a4c9b246ce4930b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6e9d500a6611e89fb76e7f65bc98eda\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f6e9d500a6611e89fb76e7f65bc98eda\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dd365440223d211ce6b7800f95ff4b45\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\dd365440223d211ce6b7800f95ff4b45\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3d43eafeafd2f8c92e74ab41af498961\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3d43eafeafd2f8c92e74ab41af498961\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a6866b7a06c005105ebc92ccfa389c16\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a6866b7a06c005105ebc92ccfa389c16\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\fa7beda293ee9d20a316174d731b8fa6\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\fa7beda293ee9d20a316174d731b8fa6\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4de067271acbfce8e0b77d1c5df8ae40\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4de067271acbfce8e0b77d1c5df8ae40\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6afb9e320c72bacb9f6868b0bc9453a0\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6afb9e320c72bacb9f6868b0bc9453a0\transformed\firebase-installations-interop-17.3.0\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\29d327dd8f42bb95082ae32d2917f8f9\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\29d327dd8f42bb95082ae32d2917f8f9\transformed\play-services-tasks-18.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f20f71908f2bd37073d7d435c031d07\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f20f71908f2bd37073d7d435c031d07\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f8ac5789d9ad074bbe6e8ff87a76586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0f8ac5789d9ad074bbe6e8ff87a76586\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ce5d834fc4d49cddeae986fdc2768d93\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ce5d834fc4d49cddeae986fdc2768d93\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1ca73be30d0fe67770e9e45f751f9204\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1ca73be30d0fe67770e9e45f751f9204\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7fe04461bfe3363431850034acb26835\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\7fe04461bfe3363431850034acb26835\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d9da5a5ea9e289a3d1a4b31462672df0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\d9da5a5ea9e289a3d1a4b31462672df0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ea3554cfbc77c9df5c7a61281aba2c8e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\ea3554cfbc77c9df5c7a61281aba2c8e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0e1df02997eac5aa9df654e6ee03fedb\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\0e1df02997eac5aa9df654e6ee03fedb\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9f7e245dcac5e10a029a469ef8a4c14d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9f7e245dcac5e10a029a469ef8a4c14d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\36d009587c3b3413619c97004e1a0a56\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\36d009587c3b3413619c97004e1a0a56\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c25485fb8cb5118985165dcc62552130\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c25485fb8cb5118985165dcc62552130\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3ad35214a9bcacc20c500c4145ea9276\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\3ad35214a9bcacc20c500c4145ea9276\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\125d0b4dc8cec70557bbbd890f0237c4\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\125d0b4dc8cec70557bbbd890f0237c4\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b70379cdbf2cca0521bdc31974a808b3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b70379cdbf2cca0521bdc31974a808b3\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\49e4ce503c170df9d403814f88afcf5a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\49e4ce503c170df9d403814f88afcf5a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4db0b6a87f073dfc5e436fbabdebd986\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4db0b6a87f073dfc5e436fbabdebd986\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\074c2544b467da731bbadc70d1ae4ff4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\074c2544b467da731bbadc70d1ae4ff4\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\25f5b492d0de3cf819040d8d6ad87db3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\25f5b492d0de3cf819040d8d6ad87db3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b3c421bf4ba608a77a665c11b5acde7c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b3c421bf4ba608a77a665c11b5acde7c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\032b66b51c35e8d9f722d4b27fc44ad2\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:19.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\032b66b51c35e8d9f722d4b27fc44ad2\transformed\firebase-components-19.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\844fb9b39a0ce0c4cb547d41d466914c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\844fb9b39a0ce0c4cb547d41d466914c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e9bb439b7b1ebac451c223ba247bcd2d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\e9bb439b7b1ebac451c223ba247bcd2d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8ad78334d994e4bed1e0651d8c96bb5b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8ad78334d994e4bed1e0651d8c96bb5b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jagrati pal\AndroidStudioProjects\MedicineReminderApp\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\4ea99335f7d68056b0a93b00cb2dd155\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f106cd72d7e82838b393487d0d1af0da\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:24.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\db6cf1b278468680c176b1216a47214d\transformed\firebase-auth-24.1.0\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6bbd3e353e838e0232e895680e6ac1d9\transformed\firebase-database-22.0.1\AndroidManifest.xml:33:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6ac7dd6846509bad8704ab33be3ff956\transformed\play-services-measurement-23.2.0\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\6e610b7fe206ea8f592efce2c2ea0872\transformed\play-services-measurement-impl-23.2.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\87d9d99dd051bb0e17a9832e399fe7e2\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\168c77db8a2ee296b6c85fdd8900c00c\transformed\play-services-measurement-sdk-api-23.2.0\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:27:22-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:23.2.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\024ba762d525635a366bb64d79027c4d\transformed\play-services-measurement-api-23.2.0\AndroidManifest.xml:34:17-139
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b1ec9bf39f7708becf3aa3a7b80101b6\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\5cb1c9ce6316f706c108484ad8ed9472\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\45f990dac293de10b8fa2e07215a9719\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:19.1.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\1afd6d9144e6cea8217d790d49726d85\transformed\firebase-installations-19.1.0\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:22.0.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\f1c914db4a97141a8988073660c7f195\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\828e361b77929beb44a7618c52e07119\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\c567e8a07085e540c726ddeb8a0c84b1\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\9fa2cc5e70d9a17cc95b75b95b8d1b44\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.9.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\a72a5d798792b5518e712c29686dfae8\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.example.medicinereminder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.medicinereminder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\883ec06723bdf6c72a010754a4823c01\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\8be3c9df35ec70a4119987e659804562\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] C:\Users\jagrati pal\.gradle\caches\9.4.1\transforms\b664d302405d972c857a0a2bf08603a4\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93

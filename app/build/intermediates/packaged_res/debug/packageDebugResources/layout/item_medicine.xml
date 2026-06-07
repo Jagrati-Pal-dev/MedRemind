@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivMedicineThumb"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_check_circle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0.8" />
+
+        <ImageView
+            android:id="@+id/ivItemInstructionIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="-4dp"
+            android:layout_marginBottom="-4dp"
+            android:background="@drawable/taken_badge_bg"
+            android:padding="3dp"
+            android:src="@drawable/ic_after_food"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/ivMedicineThumb"
+            app:layout_constraintEnd_toEndOf="@id/ivMedicineThumb"
+            app:tint="@color/primary" />
+
+        <!-- Medicine name row -->
+        <TextView
+            android:id="@+id/tvMedicineName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/ivMedicineThumb"
+            app:layout_constraintEnd_toStartOf="@id/tvTakenBadge"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Medicine Name" />
+
+        <TextView
+            android:id="@+id/tvTakenBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓ Taken"
+            android:textColor="@color/white"
+            android:background="@drawable/taken_badge_bg"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@id/tvMedicineName"
+            app:layout_constraintBottom_toBottomOf="@id/tvMedicineName"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dosage -->
+        <TextView
+            android:id="@+id/tvDosage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/white_80"
+            android:background="@drawable/dosage_badge_bg"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/tvMedicineName"
+            app:layout_constraintTop_toBottomOf="@id/tvMedicineName"
+            android:text="500mg" />
+
+        <TextView
+            android:id="@+id/tvStockBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:background="@drawable/dosage_badge_bg"
+            android:backgroundTint="#40000000"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvDosage"
+            app:layout_constraintTop_toTopOf="@id/tvDosage"
+            app:layout_constraintBottom_toBottomOf="@id/tvDosage"
+            android:text="@string/hint_stock" />
+
+        <!-- Frequency -->
+        <TextView
+            android:id="@+id/tvFrequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/white_70"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvStockBadge"
+            app:layout_constraintTop_toTopOf="@id/tvDosage"
+            app:layout_constraintBottom_toBottomOf="@id/tvDosage"
+            android:text="Once daily" />
+
+        <!-- Times -->
+        <TextView
+            android:id="@+id/tvTimes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivMedicineThumb"
+            android:text="⏰ 08:00 AM, 08:00 PM" />
+
+        <!-- Dates -->
+        <TextView
+            android:id="@+id/tvDates"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/white_70"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTimes"
+            android:text="📅 01 Jan 2025  →  31 Dec 2025" />
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#33FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDates" />
+
+        <!-- Action buttons -->
+        <ImageButton
+            android:id="@+id/btnTaken"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/action_btn_bg"
+            android:src="@drawable/ic_check_outline"
+            app:tint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            android:contentDescription="Mark taken" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Mark Taken"
+            android:textColor="@color/white_70"
+            android:textSize="11sp"
+            app:layout_constraintBottom_toBottomOf="@id/btnTaken"
+            app:layout_constraintStart_toEndOf="@id/btnTaken"
+            app:layout_constraintTop_toTopOf="@id/btnTaken" />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/action_btn_bg"
+            android:src="@drawable/ic_edit"
+            app:tint="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            android:contentDescription="Edit" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/action_btn_bg"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            android:contentDescription="Delete" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

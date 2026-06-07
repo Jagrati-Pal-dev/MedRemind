@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044781934068",
+    "project_id": "jagrati-ap",
+    "storage_bucket": "jagrati-ap.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044781934068:android:2b2e4e910d621f10b285a1",
+        "android_client_info": {
+          "package_name": "com.example.medicinereminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0T7fAIVZzMlOUmfVBOkdq44wkiqVXCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044781934068:android:be7fa4cab7d28281b285a1",
+        "android_client_info": {
+          "package_name": "com.jagrati.splash_screen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr0T7fAIVZzMlOUmfVBOkdq44wkiqVXCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

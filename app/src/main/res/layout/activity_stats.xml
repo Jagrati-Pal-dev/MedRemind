@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarStats"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Adherence Circle Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_todays_adherence"
+                        android:textColor="@color/white_70"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tvAdherencePercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0%"
+                        android:textColor="@color/white"
+                        android:textSize="56sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressAdherence"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="12dp"
+                        android:layout_marginTop="12dp"
+                        android:progressTint="@color/accent_green"
+                        android:progressBackgroundTint="@color/white_30"
+                        android:max="100"
+                        android:progress="0" />
+
+                    <TextView
+                        android:id="@+id/tvMotivation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_motivation_default"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Summary Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="16dp">
+                        <TextView
+                            android:id="@+id/tvTotalMeds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/primary" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_total"
+                            android:textSize="12sp"
+                            android:textColor="@color/text_secondary" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="16dp">
+                        <TextView
+                            android:id="@+id/tvTakenMeds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/card_green" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_taken"
+                            android:textSize="12sp"
+                            android:textColor="@color/text_secondary" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="16dp">
+                        <TextView
+                            android:id="@+id/tvPendingMeds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/card_orange" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_pending"
+                            android:textSize="12sp"
+                            android:textColor="@color/text_secondary" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <!-- Weekly Progress -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_this_week"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- Week rows: row0..row6 -->
+                    <LinearLayout android:id="@+id/row0" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row1" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row2" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row3" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row4" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row5" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical" android:layout_marginBottom="8dp">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/row6" android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:orientation="horizontal"
+                        android:gravity="center_vertical">
+                        <TextView android:tag="day_label" android:layout_width="36dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" />
+                        <ProgressBar android:tag="day_progress" style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="0dp" android:layout_height="8dp" android:layout_weight="1"
+                            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                            android:progressTint="@color/primary" android:progressBackgroundTint="@color/divider" />
+                        <TextView android:tag="day_taken" android:layout_width="40dp" android:layout_height="wrap_content"
+                            android:textSize="12sp" android:textColor="@color/text_secondary" android:gravity="end" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
