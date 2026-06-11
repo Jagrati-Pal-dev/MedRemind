@@ -25,4 +25,6 @@ You can download the latest version of the app from the [Releases](https://githu
 1. Go to **Releases**.
 2. Download the `app-debug.apk` file.
 3. Install it on your Android device.
+
+
 [![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android)](https://github.com/Jagrati-Pal-dev/MedRemind/releases/latest)
