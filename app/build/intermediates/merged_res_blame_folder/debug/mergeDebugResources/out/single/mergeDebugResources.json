@@ -116,16 +116,12 @@
         "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.medicinereminder.app-debug-47:/layout_item_medicine.xml.flat",
-        "source": "com.example.medicinereminder.app-main-49:/layout/item_medicine.xml"
+        "merged": "com.example.medicinereminder.app-debug-47:/layout_activity_login.xml.flat",
+        "source": "com.example.medicinereminder.app-main-49:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\drawable_ic_calendar.xml.flat",
         "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\drawable\\ic_calendar.xml"
-    },
-    {
-        "merged": "com.example.medicinereminder.app-debug-47:/layout_activity_add_edit_medicine.xml.flat",
-        "source": "com.example.medicinereminder.app-main-49:/layout/activity_add_edit_medicine.xml"
     },
     {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\layout_activity_profile.xml.flat",
@@ -146,10 +142,6 @@
     {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\drawable_ic_delete.xml.flat",
         "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\drawable\\ic_delete.xml"
-    },
-    {
-        "merged": "com.example.medicinereminder.app-debug-47:/menu_menu_main.xml.flat",
-        "source": "com.example.medicinereminder.app-main-49:/menu/menu_main.xml"
     },
     {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\drawable_background_image.png.flat",
@@ -176,12 +168,12 @@
         "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\layout_activity_stock.xml.flat",
-        "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\layout\\activity_stock.xml"
-    },
-    {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\layout_activity_add_edit_medicine.xml.flat",
         "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\layout\\activity_add_edit_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\layout_activity_stock.xml.flat",
+        "source": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-main-49:\\layout\\activity_stock.xml"
     },
     {
         "merged": "C:\\Users\\jagrati pal\\.gradle\\daemon\\9.4.1\\com.example.medicinereminder.app-debug-47:\\drawable_ic_empty_stomach.xml.flat",

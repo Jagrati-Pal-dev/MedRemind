@@ -1,0 +1,7 @@
+# Ignore these folders in GitHub Language Statistics
+.gradle/* linguist-vendored
+.idea/* linguist-vendored
+build/* linguist-vendored
+gradle/* linguist-vendored
+gradlew linguist-vendored
+gradlew.bat linguist-vendored
